@@ -43,6 +43,7 @@ This can support EMS services in **resource allocation and preparedness**.
 ## Files
 - `Copy_of_model_2_0.ipynb` → Jupyter/Colab notebook with full pipeline (preprocessing → training → evaluation).  
 - `data_after_prepro_2.xlsx` → Preprocessed dataset used for training.  
+- `requirements.txt` → Required Python packages.  
 
 ## How to Run
 1. Clone this repository:  
@@ -50,13 +51,18 @@ This can support EMS services in **resource allocation and preparedness**.
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
    ```
-2. Install dependencies:  
+2. Install dependencies locally:  
    ```bash
    pip install -r requirements.txt
    ```
-   *(create `requirements.txt` with: `pandas`, `numpy`, `xgboost`, `scikit-learn`, `matplotlib`)*  
 
-3. Open the notebook in **Google Colab** or **Jupyter** and run all cells.
+3. **Run in Google Colab**  
+   - Upload the repository files to Colab or mount from GitHub.  
+   - Install dependencies inside Colab:  
+     ```python
+     !pip install -r requirements.txt
+     ```
+   - Open the notebook and run all cells.
 
 ## Future Work
 - Incorporate additional environmental/demographic factors.  
