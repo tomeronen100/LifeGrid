@@ -5,7 +5,10 @@ This project aims to **predict high-risk locations for EMS (Emergency Medical Se
 The model leverages EMS dispatch data combined with meteorological and air pollution features to identify zones with elevated emergency call volume.
 
 ## Data
-- **Source**: Processed dataset (`data_after_prepro_2.xlsx`) containing EMS dispatch records from Kiryat Gat enriched with weather and pollution data.  
+- **Source**: Processed dataset (`data_after_prepro_2.xlsx`) containing **synthetic and anonymized EMS dispatch records** enriched with weather and pollution data.  
+- The dataset is adapted for **research and educational purposes only**.  
+- Example city used in this project: **Kiryat Gat, Israel** (for demonstration).
+  
 - **Key Features**:
   - Dispatch details (time, zone code, medical team code)  
   - Weather conditions (temperature, humidity, rain, etc.)  
